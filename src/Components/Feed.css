@@ -1,0 +1,43 @@
+.main-section{
+    overflow-y: auto;
+
+    flex:2
+    
+}
+
+.main{
+    display: flex;
+    
+}
+.fav1 {
+    flex: 1;
+    padding: 20px;
+    
+    position: sticky;
+    top:0;
+    overflow-y: auto;
+  }
+  
+  .fav1 div {
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px - 12px #fff;  
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+  }
+
+  .fav1 div:hover{
+    box-shadow: 
+    -6px -6px - 12px #fff, 6px 6px 12px #c5c5c5;
+  }
+
+  .fav1 p{
+    font-weight: lighter;
+    font-size: 20px
+  }
+
+  .fav1 p:hover{
+    font-weight: 900;
+  }
